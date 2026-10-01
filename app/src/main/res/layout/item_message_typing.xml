@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="start|top"
+    android:paddingStart="12dp"
+    android:paddingEnd="64dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <he.mychat.llo.ui.AvatarView
+        android:id="@+id/avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="正在输入…"
+        android:textSize="15sp" />
+</LinearLayout>
